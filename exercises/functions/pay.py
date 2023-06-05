@@ -11,4 +11,4 @@ def payroll(hours, rate):
 hours = input('Enter Hours:')
 rate = input('Enter Rate:')
 
-print('Pay:', payroll(int(hours), float(rate)))
+print('Pay:', payroll(float(hours), float(rate)))

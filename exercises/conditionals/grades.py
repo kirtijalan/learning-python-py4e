@@ -1,4 +1,10 @@
-score = input('Enter score:')
+score = input("Enter Score: ")
+try:
+    scr = float(score)
+except:
+    print('Enter numeric value.')
+    quit()
+
 sc = float(score) 
 if sc > 0.0 and sc < 1.0:
     if sc >= 0.9:

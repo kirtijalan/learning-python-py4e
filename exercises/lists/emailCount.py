@@ -1,4 +1,4 @@
-mails = open('./../files/mbox.txt')
+mails = open('./../files/mbox-short.txt')
 mailCount = 0
 for lines in mails:
     if lines.startswith("From "):

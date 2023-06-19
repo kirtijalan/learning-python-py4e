@@ -18,8 +18,9 @@ try:
 
 except:
     print('URL is not of correct format.')
-
-cmd = 'GET http://data.pr4e.org/romeo.txt HTTP/1.0\r\n\r\n'.encode()
+    
+#TODO : use dynamic url
+cmd = 'GET http://data.pr4e.org/intro-short.txt HTTP/1.0\r\n\r\n'.encode()
 mysock.send(cmd)
 
 while True:
